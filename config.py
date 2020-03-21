@@ -7,6 +7,8 @@ class DevConfig(object):
   HOSTNAME = 'http://localhost'
   ROOT_URL = 'http://localhost:5000'
   MEMCACHIER_SERVERS = ['127.0.0.1']
+  MEMCACHIER_USERNAME = ''
+  MEMCACHIER_PASSWORD = ''
 
 class ProductionConfig(object):
   DEV = False
